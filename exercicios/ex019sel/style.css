@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/* Em HTML id em css usa # para arquivo externo (Só pode ser um elemento por página) */
+/* Em HTML class em css usa . para arquivo externo pode aplicar vários elementos */
+body {
+    background-color: rgba(177, 185, 176, 0.656);
+}
+h1 {
+    color: rgb(67, 113, 64);
+}
+h1#prin {
+    /* Seletor Personalizado*/
+    text-align: center;
+    background-color: rgb(112, 178, 46);
+    color: aliceblue;
+}
+.destaque {
+    background-color: rgba(153, 153, 102, 0.437);
+}
+.basico {
+    color: #439353bd;
+    font-weight: normal;
+}
+h2 {
+    color: #5b5babac;
+}
+.avançado {
+    color: #874a4abd;
+}
