@@ -6,12 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    </span>
 </head>
 
 <body>
     <header>
         <h1>Meu Site</h1>
-        <menu>
+        <i id="burguer" class="material-icons md-36" onclick="clickMenu()">menu</i>
+        <menu id="itens">
             <ul>
                 <li><a href="#">Opção 1 </a></li>
                 <li><a href="#">Opção 2 </a></li>
@@ -41,9 +44,22 @@
                 deserunt assumenda quibusdam repellat sint, ducimus corrupti temporibus, totam, deleniti ex autem
                 dignissimos hic! Velit, iure? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia minima quas
                 temporibus exercitationem? Libero officiis, debitis esse fuga, sint obcaecati omnis totam ea soluta
-                pariatur deserunt modi commodi voluptate repudiandae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel at, harum aperiam nesciunt alias explicabo odit. At ex, velit reprehenderit magnam aspernatur quis asperiores aliquid praesentium, inventore ducimus quas cumque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi blanditiis explicabo assumenda quia ratione, in similique soluta magnam doloremque tempora quo dignissimos vel illo inventore non dolores ex. Est, recusandae!</p>
+                pariatur deserunt modi commodi voluptate repudiandae? Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Vel at, harum aperiam nesciunt alias explicabo odit. At ex, velit reprehenderit magnam aspernatur
+                quis asperiores aliquid praesentium, inventore ducimus quas cumque? Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Commodi blanditiis explicabo assumenda quia ratione, in similique soluta
+                magnam doloremque tempora quo dignissimos vel illo inventore non dolores ex. Est, recusandae!</p>
         </article>
     </main>
+    <script>
+        function clickMenu(){
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            }else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 
 </html>
